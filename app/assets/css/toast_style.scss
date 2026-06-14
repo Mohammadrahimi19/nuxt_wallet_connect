@@ -1,0 +1,41 @@
+/* استایل کلی Toast */
+.toast {
+  font-family: 'Vazir', sans-serif; /* فونت فارسی */
+  font-size: 16px;
+  text-align: right; /* راست‌چین کردن متن */
+  padding: 12px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f8d7da; /* رنگ زمینه برای خطا */
+  color: #721c24; /* رنگ متن خطا */
+}
+
+/* رنگ‌بندی برای انواع toast */
+.toast.success {
+  background-color: #d4edda; /* سبز برای موفقیت */
+  color: #155724;
+}
+
+.toast.error {
+  background-color: #f8d7da; /* قرمز برای خطا */
+  color: #721c24;
+}
+
+.toast.info {
+  background-color: #d1ecf1; /* آبی برای اطلاعات */
+  color: #0c5460;
+}
+
+.toast.warning {
+  background-color: #fff3cd; /* زرد برای هشدار */
+  color: #856404;
+}
+
+/* اضافه کردن انیمیشن */
+.toast-enter-active, .toast-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.toast-enter, .toast-leave-to {
+  opacity: 0;
+}

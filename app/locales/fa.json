@@ -1,0 +1,31 @@
+{
+  "app": {
+    "title": "دموی کیف پول Web3",
+    "subtitle": "اتصال امن کیف پول و تعامل با قرارداد هوشمند"
+  },
+  "wallet": {
+    "title": "اتصال کیف پول",
+    "connected": "متصل به شبکه",
+    "disconnected": "لطفاً کیف پول خود را متصل کنید",
+    "notConnectedDesc": "برای مشاهده آدرس و انجام تراکنش، ابتدا کیف پول خود را متصل نمایید.",
+    "copySuccess": "کپی شد",
+    "copySuccessDesc": "آدرس کیف پول در کلیپ‌بورد کپی شد.",
+    "copyError": "خطا",
+    "copyErrorDesc": "امکان کپی آدرس وجود ندارد."
+  },
+  "actions": {
+    "approve": "تایید USDT",
+    "processing": "در حال پردازش...",
+    "approved": "تاییدیه USDT با موفقیت ثبت شد"
+  },
+  "toast": {
+    "txSent": "تراکنش ارسال شد",
+    "txSentDesc": "در انتظار تایید شبکه...",
+    "success": "موفقیت‌آمیز",
+    "successDesc": "تاییدیه USDT با موفقیت ثبت شد.",
+    "cancelled": "تراکنش لغو شد",
+    "cancelledDesc": "شما تراکنش را در کیف پول خود رد کردید.",
+    "error": "خطا در تراکنش"
+  },
+  "footer": "طراحی شده با Nuxt 4، Reown و Ethers.js"
+}

@@ -1,0 +1,31 @@
+{
+  "app": {
+    "title": "Web3 Wallet Demo",
+    "subtitle": "Secure wallet connection and smart contract interaction"
+  },
+  "wallet": {
+    "title": "Wallet Connect",
+    "connected": "Connected to network",
+    "disconnected": "Please connect your wallet",
+    "notConnectedDesc": "To view your address and perform transactions, please connect your wallet first.",
+    "copySuccess": "Copied",
+    "copySuccessDesc": "Wallet address copied to clipboard.",
+    "copyError": "Error",
+    "copyErrorDesc": "Unable to copy address."
+  },
+  "actions": {
+    "approve": "USDT Approve",
+    "processing": "Processing...",
+    "approved": "USDT approval registered successfully"
+  },
+  "toast": {
+    "txSent": "Transaction Sent",
+    "txSentDesc": "Waiting for network confirmation...",
+    "success": "Success",
+    "successDesc": "USDT approval registered successfully.",
+    "cancelled": "Transaction Cancelled",
+    "cancelledDesc": "You rejected the transaction in your wallet.",
+    "error": "Transaction Error"
+  },
+  "footer": "Powered by Nuxt 4, Reown & Ethers.js"
+}
